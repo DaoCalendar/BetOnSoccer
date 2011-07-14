@@ -1,10 +1,11 @@
 ﻿#Bolão Futebol Clube
-===================================
+
 
 No Bolão Futebol Clube você dá os seus palpites nas partidas de futebol  dos mais diversos campeonatos e copas.
 
 ##REGULAMENTO
- 
+
+
 ###1. DA PARTICIPAÇÃO
 
 1.1. Para participar é preciso acessar o site do bolão e informar seu e-mail. Será permitido um usuário por email.
