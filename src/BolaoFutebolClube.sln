@@ -1,17 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BolaoFutebolClube.Domain", "BolaoFutebolClube.Domain\BolaoFutebolClube.Domain.csproj", "{AB8154FC-7835-4150-BE32-B46250CA0CD5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BolaoFutebolClube.Domain", "Domain\BolaoFutebolClube.Domain\BolaoFutebolClube.Domain.csproj", "{AB8154FC-7835-4150-BE32-B46250CA0CD5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BolaoFutebolClube.Tests", "BolaoFutebolClube.Tests\BolaoFutebolClube.Tests.csproj", "{87C4433A-63EB-4BAD-9432-EC732E53DD56}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BolaoFutebolClube.Tests", "Tests\BolaoFutebolClube.Tests\BolaoFutebolClube.Tests.csproj", "{87C4433A-63EB-4BAD-9432-EC732E53DD56}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00 - Solution Items", "00 - Solution Items", "{12CBF4D3-6E1D-4030-99B0-27A8AE61C48C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BolaoFutebolClube.Web", "BolaoFutebolClube.Web\BolaoFutebolClube.Web.csproj", "{4AA39625-1529-435D-879F-BCC1A296CA1D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BolaoFutebolClube.Web", "Presentation\BolaoFutebolClube.Web\BolaoFutebolClube.Web.csproj", "{4AA39625-1529-435D-879F-BCC1A296CA1D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BolaoFutebolClube.Services", "BolaoFutebolClube.Services\BolaoFutebolClube.Services.csproj", "{B6C909B7-4842-45BB-A0D8-1D66A2F7B33B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BolaoFutebolClube.Services", "Application\BolaoFutebolClube.Services\BolaoFutebolClube.Services.csproj", "{B6C909B7-4842-45BB-A0D8-1D66A2F7B33B}"
 EndProject
-Project("{C8D11400-126E-41CD-887F-60BD40844F9E}") = "BolaoFutebolClube.Database", "BolaoFutebolClube.Database\BolaoFutebolClube.Database.dbproj", "{67CBC824-A49E-4E9B-A947-360F3DFE65C3}"
+Project("{C8D11400-126E-41CD-887F-60BD40844F9E}") = "BolaoFutebolClube.Database", "Database\BolaoFutebolClube.Database\BolaoFutebolClube.Database.dbproj", "{67CBC824-A49E-4E9B-A947-360F3DFE65C3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06 - Tests", "06 - Tests", "{7ADB8984-9B0F-4E20-A950-8BC0C485EC3E}"
 EndProject
@@ -29,17 +29,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{ADBD6DB4-340
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Console", "Console", "{A132C397-47FC-4877-968D-7431291FC4B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BolaoFutebolClube.ConsoleApplication", "BolaoFutebolClube.ConsoleApplication\BolaoFutebolClube.ConsoleApplication.csproj", "{1BBFD4FF-4D44-416C-8D22-FC1A0EB34464}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BolaoFutebolClube.ConsoleApplication", "Presentation\BolaoFutebolClube.ConsoleApplication\BolaoFutebolClube.ConsoleApplication.csproj", "{1BBFD4FF-4D44-416C-8D22-FC1A0EB34464}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BolaoFutebolClube.Infrastructure.Data.EF4", "BolaoFutebolClube.Infrastructure.Data.EF4\BolaoFutebolClube.Infrastructure.Data.EF4.csproj", "{CCA6F613-F8CD-4786-ABE1-B29CA21833EB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BolaoFutebolClube.Infrastructure.Data.EF4", "Infrastructure\BolaoFutebolClube.Infrastructure.Data.EF4\BolaoFutebolClube.Infrastructure.Data.EF4.csproj", "{CCA6F613-F8CD-4786-ABE1-B29CA21833EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BolaoFutebolClube.Infrastructure.Data", "BolaoFutebolClube.Infrastructure.Data\BolaoFutebolClube.Infrastructure.Data.csproj", "{11D6AA12-959C-4E42-BB6E-A03FE8D61398}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BolaoFutebolClube.Infrastructure.Data", "Infrastructure\BolaoFutebolClube.Infrastructure.Data\BolaoFutebolClube.Infrastructure.Data.csproj", "{11D6AA12-959C-4E42-BB6E-A03FE8D61398}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BolaoFutebolClube.Infrastructure.Data.NHibernate", "BolaoFutebolClube.Infrastructure.Data.NHibernate\BolaoFutebolClube.Infrastructure.Data.NHibernate.csproj", "{8165D0D5-8BB7-4556-84FB-444DD49F2F53}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BolaoFutebolClube.Infrastructure.Data.NHibernate", "Infrastructure\BolaoFutebolClube.Infrastructure.Data.NHibernate\BolaoFutebolClube.Infrastructure.Data.NHibernate.csproj", "{8165D0D5-8BB7-4556-84FB-444DD49F2F53}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BolaoFutebolClube.Infrastructure.Data.RavenDB", "BolaoFutebolClube.Infrastructure.Data.RavenDB\BolaoFutebolClube.Infrastructure.Data.RavenDB.csproj", "{2697F3F4-5B3F-4AB2-9044-E8F48F80353C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BolaoFutebolClube.Infrastructure.Data.RavenDB", "Infrastructure\BolaoFutebolClube.Infrastructure.Data.RavenDB\BolaoFutebolClube.Infrastructure.Data.RavenDB.csproj", "{2697F3F4-5B3F-4AB2-9044-E8F48F80353C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BolaoFutebolClube.Infrastructure.Data.MongoDB", "BolaoFutebolClube.Infrastructure.Data.MongoDB\BolaoFutebolClube.Infrastructure.Data.MongoDB.csproj", "{E8167019-FDBF-4125-9A5B-165855C2C8AF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BolaoFutebolClube.Infrastructure.Data.MongoDB", "Infrastructure\BolaoFutebolClube.Infrastructure.Data.MongoDB\BolaoFutebolClube.Infrastructure.Data.MongoDB.csproj", "{E8167019-FDBF-4125-9A5B-165855C2C8AF}"
 EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution

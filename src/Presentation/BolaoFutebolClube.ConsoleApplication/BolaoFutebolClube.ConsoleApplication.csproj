@@ -47,7 +47,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BolaoFutebolClube.Domain\BolaoFutebolClube.Domain.csproj">
+    <ProjectReference Include="..\..\Domain\BolaoFutebolClube.Domain\BolaoFutebolClube.Domain.csproj">
       <Project>{AB8154FC-7835-4150-BE32-B46250CA0CD5}</Project>
       <Name>BolaoFutebolClube.Domain</Name>
     </ProjectReference>
