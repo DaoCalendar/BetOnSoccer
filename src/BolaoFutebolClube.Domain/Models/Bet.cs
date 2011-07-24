@@ -9,18 +9,10 @@ namespace BolaoFutebolClube.Domain.Models
 	{
 		public User User { get; private set; }
 		public Match Match { get; private set; }
-		public int HomeTeamGoals { get; set; }
-		public int AwayTeamGoals { get; set; }
+		public int? HomeTeamGoals { get; set; }
+		public int? AwayTeamGoals { get; set; }
 		public int BetScore { get; private set; }
-
-		public bool IsValid
-		{
-			get
-			{
-				return (Match != null);
-			}
-
-		}
+		public bool IsValid { get; private set; }
 
 		public Bet(User user, Match match, int homeTeamGoals, int awayTeamGoals)
 		{
@@ -28,6 +20,9 @@ namespace BolaoFutebolClube.Domain.Models
 			this.Match = match;
 			this.HomeTeamGoals = homeTeamGoals;
 			this.AwayTeamGoals = awayTeamGoals;
+
+			this.IsValid = true;
+
 		}
 
 		public override string ToString()
