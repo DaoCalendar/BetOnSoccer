@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BetOnSoccer.Domain.Models.Tournament" Collapsed="true">
+    <Position X="6.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACCCAABAAACAAEAAAAAAQgAQAAAAAAAAgAAEAAAAA=</HashCode>
+      <FileName>Models\Tournament.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="SubscribedUsers" />
+      <Property Name="Stages" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="BetOnSoccer.Domain.Models.Match">
+    <Position X="3.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAEAAAAgAgEAAIAAAAAAAAAAAAAAAgAAAAhAAA=</HashCode>
+      <FileName>Models\Match.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Stage" />
+      <Property Name="Score" />
+      <Property Name="Location" />
+      <Property Name="Status" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="BetOnSoccer.Domain.Models.Bet" Collapsed="true">
+    <Position X="6.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEABAgCAAAAAAAAUAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Bet.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="User" />
+      <Property Name="Match" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="BetOnSoccer.Domain.Models.MatchScore">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAEAEAAAAQAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Models\MatchScore.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_match" />
+      <Property Name="Result" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="BetOnSoccer.Domain.Models.MatchStatistics" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\MatchStatistics.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Match" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="BetOnSoccer.Domain.Models.Stage">
+    <Position X="6.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AhACCAAAAAAgAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Stage.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Tournament" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Teams" />
+      <Property Name="Matches" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="BetOnSoccer.Domain.Models.Team" Collapsed="true">
+    <Position X="6" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAgAAEAAIAAASAAAAAABEAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Team.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Location" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="BetOnSoccer.Domain.Models.User" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAEAQAAAAAQAAAAAQACAAAAAAAAAAA=</HashCode>
+      <FileName>Models\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BetOnSoccer.Domain.Models.Location" Collapsed="true">
+    <Position X="3.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Location.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="BetOnSoccer.Domain.Models.MatchStatus" Collapsed="true">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAiAQAAAAAAEAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\MatchStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BetOnSoccer.Domain.Models.MatchResult" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAQAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Models\MatchResult.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
